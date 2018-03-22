@@ -13,6 +13,8 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let blue = UIColor(red: 11.0 / 255, green: 78.0 / 255, blue: 160.0 / 255, alpha: 1.0)
+        let black = UIColor(red: 48.0 / 255, green: 48.0 / 255, blue: 47.0 / 255, alpha: 1.0)
+        let white = UIColor.white
         
         let cameraImage            = UIImage(named: "camera")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
         let highlightedCameraImage = UIImage(named: "highlighted_camera")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
@@ -27,6 +29,12 @@ class TabBarController: UITabBarController {
         
         firstViewController.tabBarItem  = UITabBarItem(title: "camera", image: cameraImage, selectedImage: highlightedCameraImage)
         secondViewController.tabBarItem = UITabBarItem(title: "car", image: carImage, selectedImage: highlightedCarImage)
+        
+        let normalAttributes: Dictionary! = [NSAttributedStringKey.foregroundColor: black]
+        let selectedAttributes: Dictionary! = [NSAttributedStringKey.foregroundColor: white]
+        
+        UITabBarItem.appearance().setTitleTextAttributes(normalAttributes, for: UIControlState.normal)
+        UITabBarItem.appearance().setTitleTextAttributes(selectedAttributes, for: UIControlState.selected)
         
     }
     
