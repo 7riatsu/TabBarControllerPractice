@@ -15,6 +15,7 @@
 		7C6261062064428C000F2DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6261042064428C000F2DB1 /* LaunchScreen.storyboard */; };
 		7C6261112064428C000F2DB1 /* TabBarControllerPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6261102064428C000F2DB1 /* TabBarControllerPracticeTests.swift */; };
 		7C62611C2064428C000F2DB1 /* TabBarControllerPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62611B2064428C000F2DB1 /* TabBarControllerPracticeUITests.swift */; };
+		7C62612A206444C9000F2DB1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C626129206444C9000F2DB1 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7C6261172064428C000F2DB1 /* TabBarControllerPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControllerPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C62611B2064428C000F2DB1 /* TabBarControllerPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerPracticeUITests.swift; sourceTree = "<group>"; };
 		7C62611D2064428C000F2DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C626129206444C9000F2DB1 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				7C6260F82064428C000F2DB1 /* AppDelegate.swift */,
 				7C6260FA2064428C000F2DB1 /* ViewController.swift */,
 				7C6260FC2064428C000F2DB1 /* Main.storyboard */,
+				7C626129206444C9000F2DB1 /* TabBarController.swift */,
 				7C6261022064428C000F2DB1 /* Assets.xcassets */,
 				7C6261042064428C000F2DB1 /* LaunchScreen.storyboard */,
 				7C6261072064428C000F2DB1 /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C6260FB2064428C000F2DB1 /* ViewController.swift in Sources */,
+				7C62612A206444C9000F2DB1 /* TabBarController.swift in Sources */,
 				7C6261012064428C000F2DB1 /* TabBarControllerPractice.xcdatamodeld in Sources */,
 				7C6260F92064428C000F2DB1 /* AppDelegate.swift in Sources */,
 			);
