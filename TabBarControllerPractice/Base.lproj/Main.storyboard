@@ -74,7 +74,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="Jdz-hx-Xpy">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Zgj-In-sDf" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Zgj-In-sDf" customClass="TabBarController" customModule="TabBarControllerPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="qAh-6d-UhP">
                         <autoresizingMask key="autoresizingMask"/>

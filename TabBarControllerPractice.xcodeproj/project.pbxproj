@@ -16,6 +16,10 @@
 		7C6261112064428C000F2DB1 /* TabBarControllerPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6261102064428C000F2DB1 /* TabBarControllerPracticeTests.swift */; };
 		7C62611C2064428C000F2DB1 /* TabBarControllerPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62611B2064428C000F2DB1 /* TabBarControllerPracticeUITests.swift */; };
 		7C62612A206444C9000F2DB1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C626129206444C9000F2DB1 /* TabBarController.swift */; };
+		7C62613920644713000F2DB1 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C62613520644713000F2DB1 /* camera@2x.png */; };
+		7C62613A20644713000F2DB1 /* car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C62613620644713000F2DB1 /* car@2x.png */; };
+		7C62613B20644713000F2DB1 /* highlighted_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C62613720644713000F2DB1 /* highlighted_camera@2x.png */; };
+		7C62613C20644713000F2DB1 /* highlighted_car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C62613820644713000F2DB1 /* highlighted_car@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		7C62611B2064428C000F2DB1 /* TabBarControllerPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerPracticeUITests.swift; sourceTree = "<group>"; };
 		7C62611D2064428C000F2DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C626129206444C9000F2DB1 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		7C62613520644713000F2DB1 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		7C62613620644713000F2DB1 /* car@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@2x.png"; sourceTree = "<group>"; };
+		7C62613720644713000F2DB1 /* highlighted_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "highlighted_camera@2x.png"; sourceTree = "<group>"; };
+		7C62613820644713000F2DB1 /* highlighted_car@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "highlighted_car@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 				7C62610F2064428C000F2DB1 /* TabBarControllerPracticeTests */,
 				7C62611A2064428C000F2DB1 /* TabBarControllerPracticeUITests */,
 				7C6260F62064428C000F2DB1 /* Products */,
+				7C62613420644713000F2DB1 /* TabBarItem_images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +138,17 @@
 				7C62611D2064428C000F2DB1 /* Info.plist */,
 			);
 			path = TabBarControllerPracticeUITests;
+			sourceTree = "<group>";
+		};
+		7C62613420644713000F2DB1 /* TabBarItem_images */ = {
+			isa = PBXGroup;
+			children = (
+				7C62613520644713000F2DB1 /* camera@2x.png */,
+				7C62613620644713000F2DB1 /* car@2x.png */,
+				7C62613720644713000F2DB1 /* highlighted_camera@2x.png */,
+				7C62613820644713000F2DB1 /* highlighted_car@2x.png */,
+			);
+			path = TabBarItem_images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +259,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C6261062064428C000F2DB1 /* LaunchScreen.storyboard in Resources */,
+				7C62613C20644713000F2DB1 /* highlighted_car@2x.png in Resources */,
 				7C6261032064428C000F2DB1 /* Assets.xcassets in Resources */,
 				7C6260FE2064428C000F2DB1 /* Main.storyboard in Resources */,
+				7C62613A20644713000F2DB1 /* car@2x.png in Resources */,
+				7C62613920644713000F2DB1 /* camera@2x.png in Resources */,
+				7C62613B20644713000F2DB1 /* highlighted_camera@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

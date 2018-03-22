@@ -12,8 +12,28 @@ class TabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let blue = UIColor(red: 11.0 / 255, green: 78.0 / 255, blue: 160.0 / 255, alpha: 1.0)
+        
+        let cameraImage            = UIImage(named: "camera")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        let highlightedCameraImage = UIImage(named: "highlighted_camera")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        let carImage               = UIImage(named: "car")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        let highlightedCarImage    = UIImage(named: "highlighted_car")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
 
-        // Do any additional setup after loading the view.
+        UITabBar.appearance().barTintColor = blue
+        UITabBar.appearance().isTranslucent = false
+        
+        let firstViewController = self.viewControllers![0]
+        let secondViewController = self.viewControllers![1]
+        
+        firstViewController.tabBarItem  = UITabBarItem(title: "camera", image: cameraImage, selectedImage: highlightedCameraImage)
+        secondViewController.tabBarItem = UITabBarItem(title: "car", image: carImage, selectedImage: highlightedCarImage)
+        
+    }
+    
+    func makeOriginalImage(name: String) -> UIImage {
+        let image = UIImage(named: name)!
+        let originalImage = image.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        return originalImage
     }
 
     override func didReceiveMemoryWarning() {
