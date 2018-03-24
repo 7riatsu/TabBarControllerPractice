@@ -30,8 +30,8 @@ class TabBarController: UITabBarController {
         firstViewController.tabBarItem  = UITabBarItem(title: "camera", image: cameraImage, selectedImage: highlightedCameraImage)
         secondViewController.tabBarItem = UITabBarItem(title: "car", image: carImage, selectedImage: highlightedCarImage)
         
-        let normalAttributes: Dictionary! = [NSAttributedStringKey.foregroundColor: black]
-        let selectedAttributes: Dictionary! = [NSAttributedStringKey.foregroundColor: white]
+        let normalAttributes: Dictionary! = [NSForegroundColorAttributeName: black]
+        let selectedAttributes: Dictionary! = [NSForegroundColorAttributeName: white]
         
         UITabBarItem.appearance().setTitleTextAttributes(normalAttributes, for: UIControlState.normal)
         UITabBarItem.appearance().setTitleTextAttributes(selectedAttributes, for: UIControlState.selected)
